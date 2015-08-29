@@ -1,11 +1,345 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
+		<TableLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_centerInParent="true"
+			android:id="@+id/_33">
+
+			<TableRow
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<Button
+					android:layout_height="64dp"
+					android:text="-1"
+					android:layout_width="64dp"
+					android:id="@+id/_0"
+					android:background="@drawable/button"
+					android:textSize="24sp"
+					android:layout_margin="2dp"/>
+
+				<TextView
+					android:layout_height="64dp"
+					android:layout_width="0dp"
+					android:id="@+id/_1"/>
+
+				<Button
+					android:layout_height="64dp"
+					android:text="-1"
+					android:layout_width="64dp"
+					android:id="@+id/_2"
+					android:background="@drawable/button"
+					android:textSize="24sp"
+					android:layout_margin="2dp"/>
+
+				<TextView
+					android:layout_height="64dp"
+					android:layout_width="0dp"
+					android:id="@+id/_3"/>
+
+				<Button
+					android:layout_height="64dp"
+					android:text="-1"
+					android:layout_width="64dp"
+					android:id="@+id/_4"
+					android:background="@drawable/button"
+					android:textSize="24sp"
+					android:layout_margin="2dp"/>
+
+				<TextView
+					android:layout_height="64dp"
+					android:layout_width="0dp"
+					android:id="@+id/_5"/>
+
+				<Button
+					android:layout_height="64dp"
+					android:text="-100"
+					android:layout_width="64dp"
+					android:id="@+id/_6"
+					android:background="@drawable/button"
+					android:textSize="24sp"
+					android:layout_margin="2dp"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Jest godzina:"
+					android:layout_width="wrap_content"
+					android:layout_span="7"
+					android:gravity="center"
+					android:id="@+id/_7"
+					android:textSize="28sp"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<TextSwitcher
+					android:layout_height="wrap_content"
+					android:text="00"
+					android:gravity="center"
+					android:id="@+id/_8"
+					android:layout_width="64dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text=":"
+					android:layout_width="wrap_content"
+					android:gravity="center"
+					android:id="@+id/_9"
+					android:textSize="32sp"/>
+
+				<TextSwitcher
+					android:layout_height="wrap_content"
+					android:text="00"
+					android:layout_width="64dp"
+					android:gravity="center"
+					android:id="@+id/_10"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text=":"
+					android:layout_width="wrap_content"
+					android:gravity="center"
+					android:id="@+id/_11"
+					android:textSize="32sp"/>
+
+				<TextSwitcher
+					android:layout_height="wrap_content"
+					android:text="00"
+					android:layout_width="64dp"
+					android:gravity="center"
+					android:id="@+id/_12"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="."
+					android:layout_width="wrap_content"
+					android:gravity="center"
+					android:id="@+id/_13"
+					android:textSize="32sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="000"
+					android:layout_width="64dp"
+					android:gravity="center"
+					android:id="@+id/_14"
+					android:textSize="32sp"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<Button
+					android:layout_height="64dp"
+					android:text="+1"
+					android:layout_width="64dp"
+					android:id="@+id/_23"
+					android:background="@drawable/button"
+					android:textSize="24sp"
+					android:layout_margin="2dp"/>
+
+				<TextView
+					android:layout_height="64dp"
+					android:layout_width="0dp"
+					android:id="@+id/_24"/>
+
+				<Button
+					android:layout_height="64dp"
+					android:text="+1"
+					android:layout_width="64dp"
+					android:id="@+id/_25"
+					android:background="@drawable/button"
+					android:textSize="24sp"
+					android:layout_margin="2dp"/>
+
+				<TextView
+					android:layout_height="64dp"
+					android:layout_width="0dp"
+					android:id="@+id/_26"/>
+
+				<Button
+					android:layout_height="64dp"
+					android:text="+1"
+					android:layout_width="64dp"
+					android:id="@+id/_27"
+					android:background="@drawable/button"
+					android:textSize="24sp"
+					android:layout_margin="2dp"/>
+
+				<TextView
+					android:layout_height="64dp"
+					android:layout_width="0dp"
+					android:id="@+id/_28"/>
+
+				<Button
+					android:layout_height="64dp"
+					android:text="+100"
+					android:layout_width="64dp"
+					android:id="@+id/_29"
+					android:background="@drawable/button"
+					android:textSize="24sp"
+					android:layout_margin="2dp"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Dzwonek zadzwoni za:"
+					android:layout_width="wrap_content"
+					android:layout_span="7"
+					android:gravity="center"
+					android:id="@+id/_15"
+					android:textSize="28sp"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<TextSwitcher
+					android:layout_height="wrap_content"
+					android:text="00"
+					android:layout_width="64dp"
+					android:gravity="center"
+					android:id="@+id/_16"
+					android:textSize="36sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text=":"
+					android:layout_width="wrap_content"
+					android:gravity="center"
+					android:id="@+id/_17"
+					android:textSize="32sp"/>
+
+				<TextSwitcher
+					android:layout_height="wrap_content"
+					android:text="00"
+					android:layout_width="64dp"
+					android:gravity="center"
+					android:id="@+id/_18"
+					android:textSize="36sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text=":"
+					android:layout_width="wrap_content"
+					android:gravity="center"
+					android:id="@+id/_19"
+					android:textSize="32sp"/>
+
+				<TextSwitcher
+					android:layout_height="wrap_content"
+					android:text="00"
+					android:layout_width="64dp"
+					android:gravity="center"
+					android:id="@+id/_20"
+					android:textSize="36sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="."
+					android:layout_width="wrap_content"
+					android:gravity="center"
+					android:id="@+id/_21"
+					android:textSize="32sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="000"
+					android:layout_width="64dp"
+					android:gravity="center"
+					android:id="@+id/_22"
+					android:textSize="32sp"/>
+
+			</TableRow>
+
+			<TableRow>
+
+				<ProgressBar
+					android:layout_height="16dp"
+					style="@style/CustomProgressBarHorizontal"
+					android:layout_width="wrap_content"
+					android:progressDrawable="@drawable/progressbar"
+					android:layout_span="7"
+					android:layout_margin="2dp"
+					android:id="@+id/_32"/>
+
+			</TableRow>
+
+			<TableRow
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content">
+
+				<Button
+					android:layout_height="64dp"
+					android:text="Kalibruj"
+					android:layout_width="wrap_content"
+					android:background="@drawable/button"
+					android:layout_margin="2dp"
+					android:layout_span="3"
+					android:id="@+id/_30"
+					android:textSize="24sp"/>
+
+				<TextView
+					android:layout_height="64dp"
+					android:layout_width="0dp"/>
+
+				<Button
+					android:layout_height="64dp"
+					android:text="Resetuj"
+					android:layout_width="wrap_content"
+					android:layout_margin="2dp"
+					android:background="@drawable/button"
+					android:layout_span="3"
+					android:id="@+id/_31"
+					android:textSize="24sp"/>
+
+			</TableRow>
+
+			<TableRow>
+
+				<Button
+					android:layout_height="64dp"
+					android:layout_width="wrap_content"
+					android:layout_span="7"
+					android:layout_margin="2dp"
+					android:id="@+id/_34"
+					android:background="@drawable/button"
+					android:textSize="24sp"/>
+
+			</TableRow>
+
+		</TableLayout>
+
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"/>
 
 </RelativeLayout>
+
